@@ -1,0 +1,36 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [
+    "Nodejs",
+    "express",
+    "Expressjs",
+    "jwt",
+    "jsonwebtoken",
+    "cors"
+  ],
+  "homepage": "https://github.com/sheikh-mohammad/taskora#readme",
+  "bugs": {
+    "url": "https://github.com/sheikh-mohammad/taskora/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sheikh-mohammad/taskora.git"
+  },
+  "license": "ISC",
+  "author": "Sheikh Mohammad",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.4",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.10.2",
+    "nodemailer": "^10.0.12"
+  }
+}
